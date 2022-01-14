@@ -1,0 +1,60 @@
+/**
+ * Number Guessing Game CSS File
+ * author(Joshua Thomas)
+ * date(11.01.2022)
+ * version:1.0
+ */
+
+body{
+    background: linear-gradient(to left, #9d50bb, #6e48aa)
+}
+
+.input-box{
+    width:50px;
+    height:50px;
+    margin:60px 215px;
+    font-size:30px;
+    text-align:center;
+    color:#6e48aa;
+    border:2px solid black;
+}
+
+.guess-btn{
+    width:100px;
+    height:50px;
+    border-radius:5px;
+    background-color: #9d50bb;
+    margin:-200px 195px;
+    color:white;
+    font-size:20px;
+}
+
+.guess-btn:hover{
+    cursor:pointer;
+    opacity: 90%;
+    transition:1s;
+}
+
+.header-text1, .header-text2{
+    text-align:center;
+    font-family: Tahoma, sans-serif;
+}
+
+.header-text2{
+    margin:-20px;
+}
+
+.container{
+    width:500px;
+    height:340px;
+    background-color:white;
+    margin:0px auto;
+    border: 3px solid black;
+    border-radius:10px;
+}
+
+.text-1, .text-2, .text-3{
+    text-align:center;
+    font-size:12px;
+    font-family: Tahoma, sans-serif;
+}
